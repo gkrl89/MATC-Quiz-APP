@@ -1,0 +1,12 @@
+.form {
+  /* margin-top: 1rem; */
+  margin-bottom: 5rem;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(17, 17, 18);
+  box-shadow: 2px 2px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}

@@ -1,7 +1,16 @@
-.footerbody{
-    margin-top: 2rem ;
-    margin-bottom: 1rem ;
-    background-color: rgb(53, 12, 12);
-    color:white;
-    
+.footerbody {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color: rgb(53, 12, 12);
+  color: rgb(48, 52, 186);
+  height: 40vh;
+}
+
+.rowimg {
+  margin-left: 2rem;
+  background-image: url('../assets/company.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 120vw;
+  height: 100vh;
 }

@@ -1,0 +1,58 @@
+.quesbody {
+  border-radius: 25px;
+  border-style: solid;
+  box-shadow: 10px 5px black;
+  border-color: rgb(80, 80, 80);
+  background-color: rgb(255, 255, 255);
+  width: 70vw;
+  height: 60vh;
+  text-align: center;
+  margin-left: 15rem;
+}
+.ques {
+  border: border box;
+  border-style: none;
+  background-color: transparent;
+  border-radius: 25px;
+  height: 10vh;
+  color: rgb(0, 0, 0);
+  margin-top: 2rem;
+}
+
+.opt {
+  border-radius: 25px;
+  box-shadow: 5px 5px black;
+  background-color: rgb(57, 55, 55);
+  color: rgb(196, 190, 190);
+  display: grid;
+  width: 20vw;
+  height: 5vh;
+  margin: 25rem;
+  margin-top: 1.5rem;
+  place-content: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.opt:hover {
+  background-color: rgb(189, 184, 184);
+  color: white;
+}
+
+.bton {
+  border: border box;
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  font-size: 2rem;
+  margin-left: 65rem;
+  margin-bottom: 2rem;
+  box-shadow: 10px 5px black;
+}
+.bton:hover {
+  background-color: rgb(2, 2, 74);
+  cursor: pointer;
+}

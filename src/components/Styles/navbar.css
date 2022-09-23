@@ -1,5 +1,4 @@
-
-body{
+body {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
@@ -14,7 +13,7 @@ body{
   margin-bottom: 50px;
 }
 .image {
-  background-image: url("../img3.jpg");
+  background-image: url('../assets/img3.jpg');
   margin: 0 auto;
   width: 40%;
   height: 50vh;
@@ -53,12 +52,12 @@ body{
 .para {
   margin-top: 20px;
   margin-bottom: 50px;
-  font-size: 1.5rem;
-  background-color: rgb(242, 241, 241);;
+  font-size: 1.2rem;
+  background-color: rgb(255, 255, 255);
   font-style: italic;
 }
-.navbar{
-  height:200px;
+.navbar {
+  height: 200px;
 }
 
 .nav-item {
@@ -82,19 +81,18 @@ body{
 }
 
 .notes {
-    margin-top:50px;;
+  margin-top: 50px;
   margin-left: 2rem;
   margin-right: 2rem;
-  width: 10px;
   height: auto;
-  background-color: #aab8c7;
+  background-color: #b4a5e1;
   border-style: none;
   border-radius: 25px;
 }
 .notespara {
   margin-top: 4rem;
   font-size: 1.2rem;
-  font-family: "Trebuchet MS";
+  font-family: 'Trebuchet MS';
   font-style: oblique;
   display: grid;
   place-items: center;

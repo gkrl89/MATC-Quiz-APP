@@ -1,12 +1,12 @@
-import React from "react";
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import Dropdown from "./dropdown";
-import "../components/Styles/navbar.css";
-import "../components/Styles/button.css";
-import Buttons from "./button";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./pages/Home";
+import React from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Dropdown from './dropdown';
+import '../components/Styles/navbar.css';
+import '../components/Styles/button.css';
+import Buttons from './button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './pages/Home';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -30,7 +30,7 @@ function Navbar() {
       setDropdown(false);
     }
   };
-  console.log(dropdown , "eerwerewr")
+  console.log(dropdown, 'eerwerewr');
 
   return (
     <>
@@ -41,10 +41,10 @@ function Navbar() {
         </Link>
 
         <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
 
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
             <Buttons />
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
@@ -56,38 +56,26 @@ function Navbar() {
               About Us
             </Link>
           </li>
-          <li
-            className="nav-item"
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-          >
-            <Link to = "/quiz" className="nav-links" onClick={closeMobileMenu} >
-              Quiz <i className="fas fa-caret-down"  />
+          <li className="nav-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+            <Link to="/quiz" className="nav-links" onClick={closeMobileMenu}>
+              Quiz <i className="fas fa-caret-down" />
             </Link>
             {dropdown && <Dropdown />}
           </li>
 
           <li className="nav-item">
-            <Link
-              to="/contact"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
               Contact
             </Link>
           </li>
           <li>
-            <Link
-              to="/sign-in"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/adminlogin" className="nav-links-mobile" onClick={closeMobileMenu}>
               Admin Login
             </Link>
           </li>
         </ul>
       </nav>
-      </>
+    </>
   );
 }
 

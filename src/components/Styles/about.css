@@ -1,27 +1,20 @@
-
-
-body{
-    margin-left: 2rem;
-    margin-right: 2rem;
+body {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-
-.aboutimg
-{
-    background-image:url("../office.jpg") ;
-    background-repeat: no-repeat;
-    width:70%;
-    height: 60vh;
-   
+.aboutimg {
+  background-image: url('../assets/office.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 70vh;
 }
 
-.cform{
-
-    height:50vh;
-    width:100vh;
-    background: rgb(242, 241, 241);
-    border-style: none;
-    border-radius: 25px;
-    
+.cform {
+  height: 50vh;
+  width: 100vh;
+  background: rgb(242, 241, 241);
+  border-style: none;
+  border-radius: 25px;
 }
-

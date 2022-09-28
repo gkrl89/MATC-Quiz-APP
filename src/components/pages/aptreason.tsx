@@ -86,10 +86,9 @@ function AptReason() {
               color: 'green',
               textAlign: 'center',
               marginBottom: '2rem'
-            }}
-          >
+            }}>
             {' '}
-            When you are ready, click "Begin" to start the test.{' '}
+            When you are ready, click Begin to start the test.{' '}
           </h4>
           <h4 className="bton" onClick={ClickBtn}>
             Begin
@@ -104,8 +103,7 @@ function AptReason() {
               color: 'blue',
               marginTop: '5rem',
               marginBottom: '5rem'
-            }}
-          >
+            }}>
             {' '}
             {msg} {score} !!!!{' '}
           </h3>
@@ -115,8 +113,7 @@ function AptReason() {
               color: 'black',
               marginTop: '5rem',
               marginBottom: '20rem'
-            }}
-          >
+            }}>
             Please complete other sections.
           </h4>
         </div>
@@ -135,24 +132,21 @@ function AptReason() {
                     className="opt"
                     onClick={() => {
                       handleClick(ques.ansa, ques.correct);
-                    }}
-                  >
+                    }}>
                     {ques.ansa}
                   </h3>
                   <h4
                     className="opt"
                     onClick={() => {
                       handleClick(ques.ansb, ques.correct);
-                    }}
-                  >
+                    }}>
                     {ques.ansb}
                   </h4>
                   <h4
                     className="opt"
                     onClick={() => {
                       handleClick(ques.ansc, ques.correct);
-                    }}
-                  >
+                    }}>
                     {ques.ansc}
                   </h4>
                 </li>

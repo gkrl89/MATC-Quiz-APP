@@ -87,6 +87,8 @@ function AdminLogin() {
                 </Button>
                 <h5>Not a Registered User ?</h5>
                 <Link to="/adminsignup"> Click here to Sign Up!!!</Link>
+                <h5>dashboard</h5>
+                <Link to="/dashboard">dashboard</Link>
               </Form>
             </Container>
           </div>

@@ -11,7 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AdminSignup from './Quiz-App-Admin/adminsignup';
 import AdminLogin from './Quiz-App-Admin/adminlogin';
-
+import Quizboard from './components/pages/dashboard';
+import AddQues from './components/CRUD/addques';
+import { Provider } from 'react-redux';
+// import {store} from './components/CRUD/store'
 function App() {
   return (
     <>
@@ -20,6 +23,8 @@ function App() {
         <Routes>
           <Route path="/adminlogin" element={<AdminLogin />} />
           <Route path="/adminsignup" element={<AdminSignup />} />
+          <Route path="/dashboard" element={<Quizboard />} />
+          <Route path="/addques" element={<AddQues />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/apteng" element={<AptEng />} />

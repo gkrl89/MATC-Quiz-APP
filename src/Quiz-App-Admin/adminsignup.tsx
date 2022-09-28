@@ -9,6 +9,7 @@ import * as Yup from 'yup';
 import '../components/Styles/admin.css';
 import { useNavigate } from 'react-router-dom';
 import customAxios from '../components/axios';
+import axios from 'axios';
 
 const initialValues = {
   uname: '',
@@ -35,10 +36,17 @@ function AdminSignup() {
         const uname = formik.values.uname;
         const pwd = formik.values.pwd;
 
-        console.log('uname , pwd', uname, pwd);
+        axios
+          .post('https://62fb40bbabd610251c040f32.mockapi.io/userlist', values)
+          .then((response: any) => {
+            console.log(response, '2');
+          })
+          .catch((err: number | string) => {
+            console.log(err);
+          });
 
         customAxios
-          .post('/auth/signup', { uname, pwd })
+          .post('/auth/signup')
           .then((res: any) => {
             if (res.status === 201) {
               console.log('res', res);

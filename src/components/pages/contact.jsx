@@ -12,8 +12,7 @@ function Contact() {
             color: 'rgb(39, 14, 75)',
             marginBottom: '3rem',
             textAlign: 'center'
-          }}
-        >
+          }}>
           Talk to our experts{' '}
         </h1>
         <p style={{ textAlign: 'center', fontSize: '1.2rem', marginBottom: '2rem' }}>
@@ -30,8 +29,7 @@ function Contact() {
               marginTop: '3rem',
               marginBottom: '2rem',
               textAlign: 'center'
-            }}
-          >
+            }}>
             Get a Custom Price Quote
           </h2>
           <p style={{ fontSize: '1.2rem' }}>
@@ -46,8 +44,7 @@ function Contact() {
               marginTop: '3rem',
               marginBottom: '2rem',
               textAlign: 'center'
-            }}
-          >
+            }}>
             View a Product Demonstration
           </h2>
           <p style={{ fontSize: '1.2rem' }}>
@@ -62,8 +59,7 @@ function Contact() {
               marginTop: '3rem',
               marginBottom: '2rem',
               textAlign: 'center'
-            }}
-          >
+            }}>
             Learn the Science Behind the Tests
           </h2>
           <p style={{ fontSize: '1.2rem' }}>
@@ -80,8 +76,7 @@ function Contact() {
             marginTop: '3rem',
             marginBottom: '2rem',
             textAlign: 'center'
-          }}
-        >
+          }}>
           Get in Touch with Us
         </h1>
       </Row>
